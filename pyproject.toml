@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "param >=1.9.2",
+    "pyct >=0.4.4",
+    "setuptools >=42"
+    "bokeh >=3.1.0.dev3,<3.2.0",
+    "panel >=1.0.0a1",
+    "pyviz_comms >=0.7.4",
+    "requests",
+    "packaging",
+    "tqdm >=4.48.0",
+    "wheel"
+]
+
+[tool.ruff]
+exclude = [
+    ".git",
+    "__pycache__",
+    ".tox",
+    ".eggs",
+    "*.egg",
+    "doc",
+    "dist",
+    "build",
+    "_build",
+    "examples",
+    ".ipynb_checkpoints",
+    "node_modules",
+    "apps",
+]
+ignore = [
+    "E402",
+    "E712",
+    "E731",
+    "E741",
+    "W605"
+]
+line-length = 165
+select = [
+    "E",
+    "F",
+    "W",
+]

@@ -1,0 +1,22 @@
+{
+  "name": "panel_gwalker",
+  "version": "0.1.0",
+  "description": "A Panel extension for the graphic-walker library.",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panel-extensions/panel-gwalker"
+  },
+  "dependencies": {
+    "@bokeh/bokehjs": "^3.0.3-dev.3",
+    "@holoviz/panel": "^1.0.0-alpha.1"
+    "react": "^17",
+    "react-dom": "^17",
+    "htm": "^3.0.4",
+  },
+  "devDependencies": {},
+  "files": [
+    "dist/**/*.{js,js.map,d.ts,json,css,whl}"
+  ],
+  "main": "dist/panel-gwalker.min.js"
+}
